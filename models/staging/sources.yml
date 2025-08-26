@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: raw
+    database: raw_sales_customer_database
+    schema: external_raw
+    tables:
+      - name: raw_customers
+      - name: raw_products
+      - name: raw_sales
