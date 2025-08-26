@@ -20,7 +20,8 @@ models:
       +materialized: view
       snowflake_warehouse: compute_wh
     marts:
-      +schema: marts
+      +database: sales_customer_analytics
+      +schema: dw_marts
       +materialized: table
       snowflake_warehouse: compute_wh
-      +database: sales_customer_analytics
+
